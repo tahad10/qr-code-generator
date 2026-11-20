@@ -1,0 +1,30 @@
+{
+  "name": "qr-code-generator-td",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "lucide-vue-next": "^1.0.0",
+    "qr-code-styling": "^1.9.2",
+    "vue": "^3.5.45"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@vitejs/plugin-vue": "^6.0.11",
+    "autoprefixer": "^10.7.0",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1",
+    "vue-tsc": "^3.3.14"
+  },
+  "description": "QR-Code Generator - TD – client-side QR code generator (Vue 3, TypeScript, Vite)",
+  "license": "MIT"
+}
