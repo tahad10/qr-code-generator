@@ -1,5 +1,7 @@
 # QR Code Generator - TD
 
+**🔗 Live app: [https://tahad10.github.io/qr-code-generator/](https://tahad10.github.io/qr-code-generator/)**
+
 A modern, free QR code generator that runs **100% in your browser**. Nothing you type is ever sent to a server – no backend, no tracking, no cookies, no external fonts.
 
 ## How to use it
@@ -57,7 +59,7 @@ npm run preview  # preview the production build
 
 ## Deployment
 
-`vite.config.ts` uses `base: './'`, so the contents of `dist/` can be hosted on any static host, including GitHub Pages.
+The app is deployed to GitHub Pages automatically by `.github/workflows/deploy.yml` on every push to `main` (tests run first). `vite.config.ts` uses `base: './'`, so the contents of `dist/` can also be hosted on any other static host.
 
 ## License
 
